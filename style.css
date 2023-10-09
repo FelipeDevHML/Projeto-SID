@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Raleway:wght@700&family=Frijole&display=swap&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Fonts */
+body {
+	font-family: 'Inter', sans-serif;
+	margin: auto;
+}
+
+form input {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/* Header */
+
+#firstSection header {
+	background: no-repeat center/100% url(./assets/img/header4.png);
+	background-color: #303030;
+	color: #fff;
+	text-shadow: #303030;
+	padding-top: 10rem;
+	height: 12rem;
+	display: flex;
+	align-items: end;
+	justify-content: center;
+}
+
+#firstSection nav {
+	/* max-width: 90%;
+	margin: 0 auto; */
+	display: flex;
+	justify-content: space-around;
+}
+
+#firstSection header a {
+	font-size: 24px;
+	font-family: 'Frijole', cursive, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* #firstSection header p {
+	margin-top: 1.5rem;
+	padding-bottom: 10rem;
+	font-weight: 500;
+	font-size: 20px;
+} */
+
+
+/* Main Content */
+
+.textSection {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 3.5rem;
+	padding: 5.1rem 3.5rem 5.8rem 5.5rem;
+}
+
+.textSection article h2 {
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.textSection article p {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 10px ;
+	text-justify: distribute;
+}
+.textSection article p span {
+	display: inline-block;
+	text-indent: 4vh;
+	text-justify: inherit;
+}
+
+.textSection aside img {
+	max-width: 410px;
+	margin: 0 auto;
+}
+
+.texto-completo {
+	display: none;
+}
+
+footer#foot {
+	background-color: #303030;
+	padding: 5.5rem;
+}
+
+footer#foot form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer#foot form h2 {
+	font-size: 32px;
+	color: #fff;
+}
+
+footer#foot input#formName, input.formArea {
+	width: 476px;
+	min-width: 30vw;
+	max-width: 90vw;
+	height: 72px;
+	border-radius: 10px;
+	border: 0px;
+	padding-left: 2rem;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+input#formName {
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+
+input.formArea {
+	margin-bottom: 3rem;
+}
+
+input#formSubmitButton {
+	width: 286px;
+	max-width: 90vw;
+	height: 74px;
+	margin-top: 1rem;
+	background-color: #C07212;
+	border-radius: 10px;
+	border: 0px;
+	color: #FFFFFF;
+	font-size: 30px;
+	transition: all ease-out 0.1s;
+}
+
+input#formSubmitButton:hover {
+	transform: translatey(-7px);
+	box-shadow: 0px 0px 5px 0px #ffffffaa;
+	color: #ffffffa4;
+}
+
+textarea {
+	min-width: 30vw;
+	width: 476px;
+	max-width: 90vw;
+	min-height: 72px;
+	border-radius: 10px;
+	border: 0px;
+	padding-left: 2rem;
+	font-weight: 400;
+	font-size: 24px;
+	margin-bottom: 3rem;
+}
+
+.btn-leia-mais {
+	border: 0px;
+	padding-left: 2rem;
+	font-size: inherit;
+	background: none;
+	font-weight: 700;
+	cursor: pointer;
+}
