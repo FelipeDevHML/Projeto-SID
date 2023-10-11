@@ -1,54 +1,365 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>SID-Artigos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos para o menu */
+        .header-bar {
+            background-color: #333; /* Cor de fundo do menu */
+            padding: 10px 0; /* Espaçamento interno no topo e na parte inferior */
+            display: flex; /* Use flexbox para alinhar elementos horizontalmente */
+            justify-content: center; /* Centralize o conteúdo horizontalmente */
+            align-items: center; /* Centralize o conteúdo verticalmente */
+        }
+
+        nav {
+            text-align: center; /* Centralize o texto do menu horizontalmente */
+        }
+
+        nav a {
+            color: #fff; /* Cor do texto do link */
+            text-decoration: none; /* Remova a sublinhado dos links */
+            margin: 0 20px; /* Espaçamento entre os links */
+            font-weight: bold; /* Texto em negrito */
+            transition: color 0.3s; /* Transição suave da cor do texto */
+        }
+
+        nav a:hover {
+            color: #3307f7; /* Cor do texto ao passar o mouse sobre os links */
+        }
+
+        /* Estilos para a logo */
+        .logo {
+            display: flex; /* Use flexbox para alinhar elementos horizontalmente */
+            align-items: center; /* Alinha os elementos verticalmente ao centro */
+            background-color: #333; /* Cor de fundo da logo */
+        }
+
+        .logo img {
+            width: 125px; /* Largura da logo */
+            height: 62px; /* Altura da logo */
+            margin-right: 20px; /* Espaçamento à direita da logo */
+        }
+
+        /* Estilos para o botão "Leia Mais" */
+        .btn-leia-mais {
+            background-color: #3307f7; /* Cor de fundo do botão */
+            color: #fff; /* Cor do texto do botão */
+            padding: 10px 20px; /* Espaçamento interno no botão */
+            border: none; /* Remova a borda do botão */
+            cursor: pointer; /* Altera o cursor para a mão ao passar sobre o botão */
+        }
+
+        .btn-leia-mais:hover {
+            background-color: #333; /* Cor de fundo ao passar o mouse sobre o botão */
+        }
+    </style>
+    <title>SID</title>
 </head>
-
 <body>
-	<section id="firstSection">
-		<!-- Cabeçalho com Logo e Menu -->
-		<header>
-			<nav>
-				<a href="./index.html">HOME</a>
-				<a href="#firstSection">ARTIGOS</a>
-				<a href="./index.html#foot">DENUNCIAR AGORA</a>
-				<a href="./index.html">REFERÊNCIAS</a>
-			</nav>
-		</header>
-	</section>
+    <header>
+        <div class="header-bar">
+            <div class="logo">
+                <img src="assets/img/image 14.png" alt="Logo da sua empresa">
+            </div><!-- Barra de logo -->
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="./artigos.html">ARTIGOS</a>
+                <a href="index.html">DENUNCIAR AGORA</a>
+                <a href="referencias.html">REFERÊNCIAS</a>
+            </nav>
+        </div>
+    </header>
 
-	<!-- <section class="textSection">
-		<article>
-			<h2>Arquitetos com História e Experiência.</h2>
-			<p>Nós realizamos desde 2002 projetos e gerenciamento de obras. Com mais de 800 projetos e 2.000.000 de m²
-				construídos, tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando
-				projetos personalizados, unindo a tradição e a modernidade em nossos projetos.</p>
-			<div class="texto-completo">
-				<p>Este é o restante do texto que será exibido quando o botão "Leia Mais" for clicado.</p>
+    <section class="textSection">
+        <article>
+            <h2>O QUE É INJÚRIA RACIAL?</h2>
+            <p><span>Injúria</span> racial é o crime caracterizado quando a honra de uma pessoa específica é ofendida por conta de raça, cor, etnia, religião ou origem. Diferente do racismo, que ocorre quando o agressor atinge um grupo ou coletivo de pessoas, discriminando de forma geral. Apesar das diferenças conceituais, desde janeiro DE 2023 Por causa da vigência da lei 14.532/23, a injúria racial deixou de ser considerada um crime de menor potencial ofensivo e pode resultar em penas mais severas, uma vez que ela se tornou um crime contra a igualdade, e não mais contra a honra de uma pessoa.</p>
+            <div class="texto-completo">
+				<p>
+				<h3>LEIS E ARTIGOS SOBRE INJÚRIA RACIAL</h3>
+				</p>
+				<p>A Lei 14.532/2023, publicada em janeiro deste ano, equipara a injúria racial ao crime de racismo. Com isso, a pena tornou-se mais severa com reclusão de dois a cinco anos, além de multa, não cabe mais fiança e o crime é imprescritível.
+
+					Segundo a legislação, deve ser considerada como discriminatória qualquer atitude ou tratamento dado à pessoa ou a grupos minoritários que cause constrangimento, humilhação, vergonha, medo ou exposição indevida, e que usualmente não se dispensaria a outros grupos em razão da cor, etnia, religião ou procedência.
+					
+					A pena será aumentada quando o crime for cometido por duas ou mais pessoas ou por funcionário público no exercício de suas funções, bem como quando ocorrer em contexto de descontração, diversão ou recreação.
+					
+					Se o crime for cometido no contexto de atividades esportivas, religiosas, artísticas ou culturais, a Lei prevê, além da pena de reclusão, a proibição da pessoa frequentar, por três anos, locais destinados a práticas esportivas, artísticas ou culturais.</p>
 			</div>
 			<button class="btn-leia-mais">Leia Mais</button>
 		</article>
-		<aside><img src="assets/img/image1.svg" alt="ERROR"></aside>
-	</section> -->
+		<aside><img src="assets/img/injúria racial.png" alt="ERROR"></aside>
+	</section>
 
+    <section class="textSection">
+        <article>
+            <h2>O QUE É RACISMO?</h2>
+            <p>O racismo é o preconceito e a exclusão social de pessoas com base na cor de sua pele. O racismo é uma forma de preconceito e discriminação baseada num termo controverso, que sociologicamente é revisto e do qual a genética também inicia uma revisão.</p>
+            <p>Racismo é a crença em que uma raça, etnia ou certas características físicas sejam superiores a outras. Existem diferenças conceituais entre os termos racismo e preconceito. O preconceito, na raiz da palavra, é a formulação de um conceito sobre algo sem antes o conhecer. O preconceito, por exemplo, pode ser julgar que um alimento é ruim por seu aspecto físico. Trazendo para as relações sociais, o preconceito consiste no prejulgamento de algo sem, de fato, conhecê-lo.</p>
+            <p>Nas relações sociais, o preconceito pode acontecer por conta da sexualidade (prejulgar uma pessoa homossexual); do gênero (julgar uma mulher como inferior a um homem, ou uma pessoa transgênero); da condição física (julgar uma pessoa deficiente ou de baixa estatura, por exemplo, como incapaz); e da raça (cor da pele). Quando o preconceito é motivado pela cor da pele de uma pessoa, chamamo-lo de racismo. O racismo é, portanto, uma forma de preconceito cruel que ainda atinge uma grande parcela da população mundial. É importante frisar que não existem grandes diferenças genéticas entre pessoas de etnias diferentes, e, mesmo que essa diferença existisse, isso não seria motivo suficiente para justificar o preconceito racial.</p>
+            <p>Nas formas mais agudas, o preconceito racial pode servir de pretexto para motivar agressões físicas ou verbais, além de causar dano moral e até perseguições e prisões injustas de pessoas, principalmente de negros.</p>
+            <div class="texto-completo">
+                <p>
+                    <h3>LEIS E ARTIGOS SOBRE RACISMO</h3>
+                </p>
+
+					<P>Art. 1º Serão punidos, na forma desta Lei, os crimes resultantes de discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional.       (Redação dada pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>Art. 2º-A Injuriar alguém, ofendendo-lhe a dignidade ou o decoro, em razão de raça, cor, etnia ou procedência nacional.     (Incluído pela Lei nº 14.532, de 2023)
+					
+					Pena: reclusão, de 2 (dois) a 5 (cinco) anos, e multa.       (Incluído pela Lei nº 14.532, de 2023)
+					
+					Parágrafo único. A pena é aumentada de metade se o crime for cometido mediante concurso de 2 (duas) ou mais pessoas.       (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>Art. 3º Impedir ou obstar o acesso de alguém, devidamente habilitado, a qualquer cargo da Administração Direta ou Indireta, bem como das concessionárias de serviços públicos.
+					
+					Pena: reclusão de dois a cinco anos.
+					
+					Parágrafo único.  Incorre na mesma pena quem, por motivo de discriminação de raça, cor, etnia, religião ou procedência nacional, obstar a promoção funcional.       (Incluído pela Lei nº 12.288, de 2010)      (Vigência)</P>
+					
+					<p>Art. 4º Negar ou obstar emprego em empresa privada. 
+					
+					Pena: reclusão de dois a cinco anos.
+					
+					§ 1o  Incorre na mesma pena quem, por motivo de discriminação de raça ou de cor ou práticas resultantes do preconceito de descendência ou origem nacional ou étnica:      (Incluído pela Lei nº 12.288, de 2010)      (Vigência)
+					
+					I - deixar de conceder os equipamentos necessários ao empregado em igualdade de condições com os demais trabalhadores;      (Incluído pela Lei nº 12.288, de 2010)      (Vigência)
+					
+					II - impedir a ascensão funcional do empregado ou obstar outra forma de benefício profissional;        (Incluído pela Lei nº 12.288, de 2010)      (Vigência)
+					
+					III - proporcionar ao empregado tratamento diferenciado no ambiente de trabalho, especialmente quanto ao salário.        (Incluído pela Lei nº 12.288, de 2010)      (Vigência)
+					
+					§ 2o  Ficará sujeito às penas de multa e de prestação de serviços à comunidade, incluindo atividades de promoção da igualdade racial, quem, em anúncios ou qualquer outra forma de recrutamento de trabalhadores, exigir aspectos de aparência próprios de raça ou etnia para emprego cujas atividades não justifiquem essas exigências.        (Incluído pela Lei nº 12.288, de 2010)</p>
+					
+					<P>Art. 5º Recusar ou impedir acesso a estabelecimento comercial, negando-se a servir, atender ou receber cliente ou comprador.
+					
+					Pena: reclusão de um a três anos.</P>
+					
+					<p>Art. 6º Recusar, negar ou impedir a inscrição ou ingresso de aluno em estabelecimento de ensino público ou privado de qualquer grau.
+					
+					Pena: reclusão de três a cinco anos.
+					
+					Parágrafo único. Se o crime for praticado contra menor de dezoito anos a pena é agravada de 1/3 (um terço).</p>
+					
+					<P>Art. 7º Impedir o acesso ou recusar hospedagem em hotel, pensão, estalagem, ou qualquer estabelecimento similar.
+					
+					Pena: reclusão de três a cinco anos.</P>
+					
+					<P>Art. 8º Impedir o acesso ou recusar atendimento em restaurantes, bares, confeitarias, ou locais semelhantes abertos ao público.
+					
+					Pena: reclusão de um a três anos.</P>
+					
+					<P>Art. 9º Impedir o acesso ou recusar atendimento em estabelecimentos esportivos, casas de diversões, ou clubes sociais abertos ao público.
+					
+					Pena: reclusão de um a três anos.</P>
+					
+					<P>Art. 10. Impedir o acesso ou recusar atendimento em salões de cabeleireiros, barbearias, termas ou casas de massagem ou estabelecimento com as mesmas finalidades.
+					
+					Pena: reclusão de um a três anos.</P>
+					
+					<P>Art. 11. Impedir o acesso às entradas sociais em edifícios públicos ou residenciais e elevadores ou escada de acesso aos mesmos:
+					
+					Pena: reclusão de um a três anos.</P>
+					
+					<P>Art. 12. Impedir o acesso ou uso de transportes públicos, como aviões, navios barcas, barcos, ônibus, trens, metrô ou qualquer outro meio de transporte concedido.
+					
+					Pena: reclusão de um a três anos.</P>
+					
+					<P>Art. 13. Impedir ou obstar o acesso de alguém ao serviço em qualquer ramo das Forças Armadas.
+					
+					Pena: reclusão de dois a quatro anos.</P>
+					
+					Art. 14. Impedir ou obstar, por qualquer meio ou forma, o casamento ou convivência familiar e social.
+					
+					Pena: reclusão de dois a quatro anos.</P>
+					
+					<P>Art. 15. (Vetado).</P>
+					
+					<P>Art. 16. Constitui efeito da condenação a perda do cargo ou função pública, para o servidor público, e a suspensão do funcionamento do estabelecimento particular por prazo não superior a três meses.</P>
+					
+					<P>Art. 17. (Vetado).</P>
+					
+					<P>Art. 18. Os efeitos de que tratam os arts. 16 e 17 desta Lei não são automáticos, devendo ser motivadamente declarados na sentença.</P>
+					
+					<P>Art. 19. (Vetado).</P>
+					
+					<P>Art. 20. Praticar, induzir ou incitar, pelos meios de comunicação social ou por publicação de qualquer natureza, a discriminação ou preconceito de raça, por religião, etnia ou procedência nacional. (Artigo incluído pela Lei nº 8.081, de 21.9.1990)</P>
+					
+						<P>Pena: reclusão de dois a cinco anos.</P>
+					
+					<P>1º Incorre na mesma pena quem fabricar, comercializar, distribuir ou veicular símbolos, emblemas, ornamentos, distintivos ou propaganda que utilizem a cruz suástica ou gamada, para fins de divulgação do nazismo. (Parágrafo incluído pela Lei nº 8.882, de 3.6.1994)</P>
+					
+					<P>2º Poderá o juiz determinar, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito policial, sob pena de desobediência:(Parágrafo renumerado pela Lei nº 8.882, de 3.6.1994)
+					
+					I - o recolhimento imediato ou a busca e apreensão dos exemplares do material respectivo;
+					
+					II - a cessação das respectivas transmissões radiofônicas ou televisivas.
+					
+					<P>3º Constitui efeito da condenação, após o trânsito em julgado da decisão, a destruição do material apreendido. (Parágrafo renumerado pela Lei nº 8.882, de 3.6.1994)</P>       
+					
+					<P>Art. 20. Praticar, induzir ou incitar a discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional. (Redação dada pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>Pena: reclusão de um a três anos e multa.(Redação dada pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>1º Fabricar, comercializar, distribuir ou veicular símbolos, emblemas, ornamentos, distintivos ou propaganda que utilizem a cruz suástica ou gamada, para fins de divulgação do nazismo. (Redação dada pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>Pena: reclusão de dois a cinco anos e multa.(Incluído pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>2º Se qualquer dos crimes previstos no caput é cometido por intermédio dos meios de comunicação social ou publicação de qualquer natureza: (Redação dada pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>2º Se qualquer dos crimes previstos neste artigo for cometido por intermédio dos meios de pena</P>
+					
+					<P>Pena: reclusão de dois a cinco anos e multa.(Incluído pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>2º-A Se qualquer dos crimes previstos neste artigo for cometido no contexto de atividades esportivas, religiosas, artísticas ou culturais destinadas ao público:       (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>Pena: reclusão, de 2 (dois) a 5 (cinco) anos, e proibição de frequência, por 3 (três) anos, a locais destinados a práticas esportivas, artísticas ou culturais destinadas ao público, conforme o caso.     (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>2º-B Sem prejuízo da pena correspondente à violência, incorre nas mesmas penas previstas no caput deste artigo quem obstar, impedir ou empregar violência contra quaisquer manifestações ou práticas religiosas.     (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>3º No caso do parágrafo anterior, o juiz poderá determinar, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito policial, sob pena de desobediência: (Redação dada pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>3º No caso do § 2º deste artigo, o juiz poderá determinar, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito policial, sob pena de desobediência:      (Redação dada pela Lei nº 14.532, de 2023)
+					
+					I - o recolhimento imediato ou a busca e apreensão dos exemplares do material respectivo;(Incluído pela Lei nº 9.459, de 15/05/97)
+					
+					II - a cessação das respectivas transmissões radiofônicas ou televisivas.(Incluído pela Lei nº 9.459, de 15/05/97)
+					
+					II - a cessação das respectivas transmissões radiofônicas, televisivas, eletrônicas ou da publicação por qualquer meio;      (Redação dada pela Lei nº 12.735, de 2012)        (Vigência)
+					
+					III - a interdição das respectivas mensagens ou páginas de informação na rede mundial de computadores. (Incluído pela Lei nº 12.288, de 2010)      (Vigência)</P>
+					
+					<P>4º Na hipótese do § 2º, constitui efeito da condenação, após o trânsito em julgado da decisão, a destruição do material apreendido. (Incluído pela Lei nº 9.459, de 15/05/97)</P>
+					
+					<P>Art. 20-A. Os crimes previstos nesta Lei terão as penas aumentadas de 1/3 (um terço) até a metade, quando ocorrerem em contexto ou com intuito de descontração, diversão ou recreação.     (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>Art. 20-B. Os crimes previstos nos arts. 2º-A e 20 desta Lei terão as penas aumentadas de 1/3 (um terço) até a metade, quando praticados por funcionário público, conforme definição prevista no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), no exercício de suas funções ou a pretexto de exercê-las.      (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>Art. 20-C. Na interpretação desta Lei, o juiz deve considerar como discriminatória qualquer atitude ou tratamento dado à pessoa ou a grupos minoritários que cause constrangimento, humilhação, vergonha, medo ou exposição indevida, e que usualmente não se dispensaria a outros grupos em razão da cor, etnia, religião ou procedência.      (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>Art. 20-D. Em todos os atos processuais, cíveis e criminais, a vítima dos crimes de racismo deverá estar acompanhada de advogado ou defensor público.     (Incluído pela Lei nº 14.532, de 2023)</P>
+					
+					<P>Art. 21. Esta Lei entra em vigor na data de sua publicação. (Renumerado pela Lei nº 8.081, de 21.9.1990)</P>
+					
+					<P>Art. 22. Revogam-se as disposições em contrário. (Renumerado pela Lei nº 8.081, de 21.9.1990)
+					
+					Brasília, 5 de janeiro de 1989; 168º da Independência e 101º da República.</P>
+					
+					<P>JOSÉ SARNEY</P>
+					<p>Paulo Brossard</p>
+            </div>
+			<button class="btn-leia-mais">Leia Mais</button>
+        </article>
+		<aside><img src="assets/img/racismo 01.jpeg" alt="ERROR"></aside>
+    </section>
+			
+	<section class="textSection">
+        <article>
+            <h2>O QUE É ASSÉDIO MORAL?</h2>
+            <p>Assédio moral é toda conduta praticada pelo empregador, seja ele o chefe ou um superior hierárquico, ou pelos colegas de trabalho que vise a tornar o ambiente de trabalho insuportável, por meio de ações repetitivas que atinjam a moral, a dignidade e a autoestima do trabalhador, sem qualquer motivo que lhe dê causa, apenas com o intuito de fazê-lo pedir demissão, acarretando danos físicos, psicológicos e morais a esse trabalhador.</p>
+            <p>Além disso, uma das formas de assediar moralmente o empregado é a sutileza com que o superior hierárquico promove as humilhações, as brincadeiras, os rebaixamentos, pois, sendo velado, é mais difícil do empregado se defender.</p>
+            <div class="texto-completo">
+                <p>
+                    <h3>LEIS E ARTIGOS SOBRE ASSÉDIO MORA</h3>
+                </p>
+					<P>Art. 146-A. Ofender reiteradamente a dignidade de alguém causando-lhe dano ou sofrimento físico ou mental, no exercício de emprego, cargo ou função. Pena – detenção, de 1 (um) a 2 (dois) anos, e multa, além da pena correspondente à violência.</p>
+					<p>Art. 203-A Praticar, reiteradamente, contra o trabalhador ato hostil capaz de ofender a sua dignidade e causar-lhe dano físico ou psicológico, prevalecendo-se o agente de sua condição de superior hierárquico ou ascendência inerentes ao exercício de emprego, cargo ou função. Pena – detenção, de um a dois anos.”</p>
+					<p>Art. Artigo 203 do Decreto Lei nº 2.848 de 07 de Dezembro de 1940
+						CP - Decreto Lei nº 2.848 de 07 de Dezembro de 1940</p>
+					<p>Art. 203 - Frustrar, mediante fraude ou violência, direito assegurado pela legislação do trabalho:
+
+						Pena - detenção de um ano a dois anos, e multa, além da pena correspondente à violência. (Redação dada pela Lei nº 9.777, de 1998)</p>
+					
+					</div>
+			<button class="btn-leia-mais">Leia Mais</button>
+		</article>
+	</section>
+	
+	<section class="textSection">
+        <article>
+            <h2>O QUE É ASSEDIO SEXUAL?</h2>
+            <p>São situações que não têm a ver com desejo sexual ou com paquera, mas sim com uma manifestação de poder, intimidação e desrespeito em relação à vontade e aos corpos femininos.</p>
+            <p>O assédio sexual pode acontecer em espaços e contextos diversos, como em casa, no trabalho ou em espaços públicos, como as ruas, os meios de transporte, em festas e baladas.</p>
+			<p>Exemplos de práticas de assédio
+				Ofender, falar ou fazer gestos de modo inapropriado e ofensivo. Tocar, apalpar, passar a mão, encoxar, se esfregar, lamber, ejacular na frente da vítima ou sobre seu corpo ou suas vestes, segurar o braço, forçar beijo, impedir a saída. Colocar a mão por dentro da roupa da vítima sem autorização, iniciar ou consumar ato sexual sem consentimento. Embora seja comumente considerado como uma forma de assédio, esse tipo de ato caracteriza o crime de estupro.</p>
+            <div class="texto-completo">
+                <p>
+                    <h3>LEIS E ARTIGOS CONTRA Ó ASSÉDIO SEXUAL</h3>
+                </p>
+					<P>sexual e demais crimes contra a dignidade sexual, ou de qualquer forma de violência sexual, assegurados o sigilo e o devido processo legal;</p>
+					<p>VII – criação de programas de capacitação, na modalidade presencial ou a distância, que abranjam os seguintes conteúdos mínimos:</p>
+					<p>A) causas estruturantes do assédio sexual e demais crimes contra a dignidade sexual e da violência sexual;</p>
+					<p>B) consequências para a saúde das vítimas;</p>
+					<p>C) meios de identificação, modalidades e desdobramentos jurídicos;</p>
+					<p>D) direitos das vítimas, incluindo o acesso à justiça e à reparação;</p>
+					<p>E) mecanismos e canais de denúncia;</p>
+					<p>F) instrumentos jurídicos de prevenção e de enfrentamento ao assédio sexual e demais crimes contra a dignidade sexual e a todas as formas de violência sexual disponíveis no ordenamento jurídico brasileiro.</p>
+					<p>1º Qualquer pessoa que tiver conhecimento da prática de assédio sexual e demais crimes contra a dignidade sexual, ou de qualquer forma de violência sexual, tem o dever legal de denunciá-los e de colaborar com os procedimentos administrativos internos e externos, em consonância com o disposto no inciso VI do caput deste artigo.</p>
+					<p>2º Para fins do disposto nesta Lei, serão apuradas eventuais retaliações contra:</p>
+					<p>I - vítimas de assédio sexual e demais crimes contra a dignidade sexual, ou de qualquer forma de violência sexual;</p>
+					<p>II - testemunhas;</p>
+					<p>III - auxiliares em investigações ou em processos que apurem a prática de assédio sexual e demais crimes contra a dignidade sexual, ou de qualquer forma de violência sexual.</p>
+					<p>Art. 6º No seu âmbito de atuação, o Poder Executivo federal disponibilizará materiais informativos a ser utilizados na capacitação e na divulgação dos objetivos do Programa de Prevenção e Enfrentamento ao Assédio Sexual e demais Crimes contra a Dignidade Sexual e à Violência Sexual.</p>
+					<p>Parágrafo único. Os órgãos e entidades abrangidos por esta Lei deverão garantir que a capacitação cumpra os padrões mínimos estabelecidos nos materiais informativos referidos no caput deste artigo.</p>
+					<p>Art. 7º Os órgãos e entidades abrangidos por esta Lei deverão manter, pelo período de 5 (cinco) anos, os registros de frequência, físicos ou eletrônicos, dos programas de capacitação ministrados na forma prevista no inciso VII do caput do art. 5º desta Lei.</p>
+					<p>Art. 8º No seu âmbito de atuação, o Poder Executivo monitorará o desenvolvimento do Programa de Prevenção e Enfrentamento ao Assédio Sexual e demais Crimes contra a Dignidade Sexual e à Violência Sexual, a fim de subsidiar o planejamento de ações futuras e a análise e consecução de seus objetivos e diretrizes.</p>
+					<p>Art. 9º Todas as ações realizadas no âmbito do Programa de Prevenção e Enfrentamento ao Assédio Sexual e demais Crimes contra a Dignidade Sexual e à Violência Sexual deverão observar as diretrizes constantes do art. 14 e demais disposições da Lei nº 13.431, de 4 de abril de 2017.</p>
+					<p>Art. 10. A aplicação desta Lei às instituições privadas a que se refere o § 1º do art. 2º desta Lei ocorrerá após a regulamentação da matéria pelo ente federativo responsável pela concessão, permissão, autorização ou delegação.</p>
+					<p>Art. 11. Esta Lei entra em vigor na data de sua publicação.</p>
+					<p>Brasília, 3 de abril de 2023; 202º da Independência e 135º da República.</p>
+					<P>LUIZ INÁCIO LULA DA SILVA
+						Silvio Luiz de Almeida
+						Camilo Sobreira de Santana
+						Flávio Dino de Castro e Costa
+						Aparecida Gonçalves</P>
+
+						Pena - detenção de um ano a dois anos, e multa, além da pena correspondente à violência. (Redação dada pela Lei nº 9.777, de 1998)</p>
+					
+					</div>
+			<button class="btn-leia-mais">Leia Mais</button>
+		</article>
+		<aside><img src="assets/img/Assédio sexual.jpeg" alt="ERROR"></aside>
+	</section>
 
 	<section class="textSection">
-		<article>
-			<h2>O QUE É INJÚRIA RACIAL?</h2>
-			<p><span>Injúria</span> racial é o crime caracterizado quando a honra de uma pessoa específica é ofendida por conta de raça, cor, etnia, religião ou origem. Diferente do racismo, que ocorre quando o agressor atinge um grupo ou coletivo de pessoas, discriminando de forma geral. Apesar das diferenças conceituais, desde janeiro DE 2023 Por causa da vigência da lei 14.532/23, a injúria racial deixou de ser considerada um crime de menor potencial ofensivo e pode resultar em penas mais severas, uma vez que ela se tornou um crime contra a igualdade, e não mais contra a honra de uma pessoa.</p>
+        <article>
+            <h2>O QUE É INTOLERÂNCIA RELIGIOSA?</h2>
+            <p>Intolerância religiosa é um termo que descreve a atitude mental caracterizada pela falta de habilidade ou vontade em reconhecer e respeitar práticas e crenças religiosas de terceiros, ou a sua ausência. Pode-se constituir uma intolerância ideológica ou política, sendo que, ambas têm sido comuns através da história.</p>
+            <p>A maioria dos grupos religiosos já passou por tal situação numa época ou outra. Floresce devido à ausência de liberdade de religião e pluralismo religioso. Perseguição, neste contexto, pode referir-se a prisões ilegais, espancamentos, torturas, execução injustificada, negação de benefícios e de direitos e liberdades civis. Pode também implicar confisco de bens e destruição de propriedades, ou incitamento ao ódio.</p>
+			
 			<div class="texto-completo">
-				<p>Este é o restante do texto que será exibido quando o botão "Leia Mais" for clicado.</p>
+				<p>
+                    <h3>LEIS E ARTIGOS SOBRE INTOLERÂNCIA RELIGIOSA
+					<p>Foi sancionada pelo Poder Executivo e publicada no Diário Oficial a Lei Estadual nº 21.956 (originalmente projeto de lei nº 4680/21), que institui a Política de Combate à Intolerância Religiosa no ambiente escolar, tendo como objetivo conscientizar e informar a comunidade escolar sobre o caráter criminoso da intolerância religiosa, bem como promover a cultura de paz. A matéria é de autoria da ex-deputada estadual (e atual deputada federal) Lêda Borges (PSDB).</p>
+					<p>Pela nova redação, o artigo 2º da Lei nº 20.451, de 22 de abril de 2019, passa a vigorar acrescido do inciso XI, que trata de garantir liberdade religiosa, laicidade do Estado e combater intolerância religiosa.</p>
+					<p>Art. 1º A Lei nº 7.716, de 5 de janeiro de 1989 (Lei do Crime Racial), passa a vigorar com as seguintes alterações:</p>
+					<p>“Art. 2º-A Injuriar alguém, ofendendo-lhe a dignidade ou o decoro, em razão de raça, cor, etnia ou procedência nacional.
+						Pena: reclusão, de 2 (dois) a 5 (cinco) anos, e multa.
+						Parágrafo único. A pena é aumentada de metade se o crime for cometido mediante concurso de 2 (duas) ou mais pessoas.”</p>
+					<p>Art. 20.</p>
+					<p>2º Se qualquer dos crimes previstos neste artigo for cometido por intermédio dos meios de comunicação social, de publicação em redes sociais, da rede mundial de computadores ou de publicação de qualquer natureza:</p>
+					<p>2º-A Se qualquer dos crimes previstos neste artigo for cometido no contexto de atividades esportivas, religiosas, artísticas ou culturais destinadas ao público:
+							Pena: reclusão, de 2 (dois) a 5 (cinco) anos, e proibição de frequência, por 3 (três) anos, a locais destinados a práticas esportivas, artísticas ou culturais destinadas ao público, conforme o caso.</p>
+					<p>2º-B Sem prejuízo da pena correspondente à violência, incorre nas mesmas penas previstas no caput deste artigo quem obstar, impedir ou empregar violência contra quaisquer manifestações ou práticas religiosas.</p>
+					<p>3º No caso do § 2º deste artigo, o juiz poderá determinar, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito policial, sob pena de desobediência </p>
+					<p>“Art. 20-A. Os crimes previstos nesta Lei terão as penas aumentadas de 1/3 (um terço) até a metade, quando ocorrerem em contexto ou com intuito de descontração, diversão ou recreação.”</p>
+					<p>“Art. 20-B. Os crimes previstos nos arts. 2º-A e 20 desta Lei terão as penas aumentadas de 1/3 (um terço) até a metade, quando praticados por funcionário público, conforme definição prevista no Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), no exercício de suas funções ou a pretexto de exercê-las.”</p>
+					<p>“Art. 20-C. Na interpretação desta Lei, o juiz deve considerar como discriminatória qualquer atitude ou tratamento dado à pessoa ou a grupos minoritários que cause constrangimento, humilhação, vergonha, medo ou exposição indevida, e que usualmente não se dispensaria a outros grupos em razão da cor, etnia, religião ou procedência.”</p>
+					<p>“Art. 20-D. Em todos os atos processuais, cíveis e criminais, a vítima dos crimes de racismo deverá estar acompanhada de advogado ou defensor público.”
+									Art. 2º O § 3º do art. 140 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar com a seguinte redação:</p>
+					<p>“Art. 140."</p>
+					<p>3º Se a injúria consiste na utilização de elementos referentes a religião ou à condição de pessoa idosa ou com deficiência:
+										Pena - reclusão, de 1 (um) a 3 (três) anos, e multa.”(NR)</p>
+					<p>O conteúdo disponibilizado nesta página diz respeito à legislação em vigor na época da publicação</p>
 			</div>
 			<button class="btn-leia-mais">Leia Mais</button>
 		</article>
-		<aside><img src="assets/img/image1.svg" alt="ERROR"></aside>
+		<aside><img src="assets/img/INTOLERÂNCIA RELIGIOSA.jpeg" alt="ERROR"></aside>
 	</section>
 
-	<script src="./index.js"></script>
+    <script src="./index.js"></script>
 </body>
-
 </html>

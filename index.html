@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title> SID </title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos para o menu */
+        .header-bar {
+            background-color: #333; /* Cor de fundo do menu */
+            padding: 10px 0; /* Espaçamento interno no topo e na parte inferior */
+            display: flex; /* Use flexbox para alinhar elementos horizontalmente */
+            justify-content: center; /* Centralize o conteúdo horizontalmente */
+            align-items: center; /* Centralize o conteúdo verticalmente */
+        }
 
+        nav {
+            text-align: center; /* Centralize o texto do menu horizontalmente */
+        }
+
+        nav a {
+            color: #fff; /* Cor do texto do link */
+            text-decoration: none; /* Remova a sublinhado dos links */
+            margin: 0 20px; /* Espaçamento entre os links */
+            font-weight: bold; /* Texto em negrito */
+            transition: color 0.3s; /* Transição suave da cor do texto */
+        }
+
+        nav a:hover {
+            color: #3307f7; /* Cor do texto ao passar o mouse sobre os links */
+        }
+
+        /* Estilos para a logo */
+        .logo {
+            display: flex; /* Use flexbox para alinhar elementos horizontalmente */
+            align-items: center; /* Alinha os elementos verticalmente ao centro */
+            background-color: #333; /* Cor de fundo da logo */
+        }
+
+        .logo img {
+            width: 125px; /* Largura da logo */
+            height: 62px; /* Altura da logo */
+            margin-right: 20px; /* Espaçamento à direita da logo */
+        }
+    </style>
+    <title>SID</title>
+</head>
 <body>
-	<section id="firstSection">
-		<!-- Cabeçalho com Logo e Menu -->
-		<header>
-			<nav>
-				<a href="#firstSection">HOME</a>
-				<a href="./artigos.html">ARTIGOS</a>
-				<a href="#foot">DENUNCIAR AGORA</a>
-				<a href="./index.html">REFERÊNCIAS</a>
-			</nav>
-		</header>
+    <header>
+        <div class="header-bar">
+            <div class="logo">
+                <img src="assets/img/image 14.png" alt="Logo da sua empresa">
+            </div><!-- Barra de logo -->
+            <nav>
+                <a href="#firstSection">HOME</a>
+                <a href="./artigos.html">ARTIGOS</a>
+                <a href="#foot">DENUNCIAR AGORA</a>
+                <a href="referencias.html">REFERÊNCIAS</a>
+            </nav>
+        </div>
+    </header>
+
 	</section>
+
 	<!-- <section class="textSection">
 	<article>
 		<h2>Título</h2>
@@ -29,65 +71,34 @@
 
 	<section class="textSection">
 		<article>
-			<h2>Boas vindas</h2>
+			<h2>Boas-vindas</h2>
 			<p>
-				<span>
-					Utilizando como parâmetro à realidade social; que ao longo das décadas perpassa por profunda e
-					crescente
-					desigualdade social. Identificamos os seguintes problemas, a serem atingidos por meio do projeto em
-					questão: racismo, injúria racial, intolerância religiosa, assédio sexual e assédio moral.
-				</span><br><br>
-				<span>
-					Apresentadas estas múltiplas formas de opressão e preconceitos, são coerentes os seguintes
-					questionamentos: “Há denúncias de violações e discriminações no âmbito escolar?” “Existem projetos
-					propositivos e preventivos, no Colégio Estadual de Educação Profissional em Tecnologia, Informação e
-					Comunicação - CEEPTIC, acerca de evitar ações discriminatórias na escola? Quais seus canais de
-					denúncia?”
-					De acordo com as análises e reflexões críticas, são propostas do projeto: desenvolver um site
-					dinâmico,
-					didático e ilustrativo para perpetuar ideias e estratégias de combate às múltiplas formas de
-					preconceito
-					e opressões no Colégio CEEPTIC. A plataforma digital objetiva ser um espaço/instrumento altamente
-					qualificado e informativo no contexto do combate ao racismo e/ou da injúria racial, intolerância
-					religiosa, assédio sexual e assédio moral nas instituição escolar.<br><br>
-				</span>
+				Utilizando como parâmetro a realidade social, que ao longo das décadas perpassa por profunda e crescente desigualdade social, identificamos os seguintes problemas a serem abordados por meio deste projeto: racismo, injúria racial, intolerância religiosa, assédio sexual e assédio moral.
+			</p>
+			<p>
+				Diante destas múltiplas formas de opressão e preconceitos, surgem os seguintes questionamentos: "Há denúncias de violações e discriminações no âmbito escolar?" "Existem projetos propositivos e preventivos no Colégio Estadual de Educação Profissional em Tecnologia, Informação e Comunicação - CEEPTIC, voltados a evitar ações discriminatórias na escola? Quais são os canais de denúncia?"
+			</p>
+			<p>
+				Com base em análises e reflexões críticas, este projeto propõe o desenvolvimento de um site dinâmico, didático e ilustrativo para disseminar ideias e estratégias de combate às múltiplas formas de preconceito e opressão no Colégio CEEPTIC. A plataforma digital tem como objetivo ser um espaço/instrumento altamente qualificado e informativo no contexto da luta contra o racismo, injúria racial, intolerância religiosa, assédio sexual e assédio moral no ambiente escolar.
+			</p>
 			<div class="texto-completo">
 				<p>
-					<span>
-						Propõe-se que ao utilizar o site as pessoas sintam-se engajadas a refletirem sobre ações cotidianas
-						que
-						são opressoras, discriminatórias e desrespeitosas na sociedade, e que por vezes, estão presentes
-						nos
-						espaços escolares e atravessam as vidas de alunos/as, professores/as e dentre outros
-						funcionários/as em
-						seu espaço diários de trabalhos e/ou estudo.<br><br>
-					</span>
-					<span>
-						Também, o projeto permite viabilizar o encaminhamento de denúncias para gestão escolar, a
-						princípio, da
-						escola do projeto piloto: CEEPTIC. Assim, será possível que a referida escola esteja atenta e
-						ciente das
-						demandas no que tange o bullying e demais opressões nesse espaço; através do recebimento de
-						denúncias
-						anônimas reunidas pelo site, estrategicamente, e em prol de tencionar melhorias e intervenções
-						acolhedoras que combatam as múltiplas formas de opressão e de preconceitos no âmbito escolar.
-						Logo, o site informativo/ilustrativo/didático tem como finalidade visibilizar formas de combate à
-						violências e preconceitos, incluindo fomentar o processo de desconstrução de falas, atitudes e
-						ações que
-						são vistas como normais ou naturalizadas, mas que na realidade são opressoras e discriminatórias.
-						Sendo
-						assim objetiva-se: Fomentar o combate ao racismo, intolerância religiosa, injúria racial, assédio
-						sexual
-						e assédio moral no Colegio CEEPTIC.
-					</span>
+					Propõe-se que, ao utilizar o site, as pessoas se sintam motivadas a refletir sobre ações cotidianas que são opressoras, discriminatórias e desrespeitosas na sociedade, e que por vezes, estão presentes nos espaços escolares, afetando a vida de alunos, professores e outros funcionários em seu dia a dia de trabalho e estudo.
+				</p>
+				<p>
+					Além disso, o projeto permite o encaminhamento de denúncias para a gestão escolar, inicialmente na escola do projeto piloto: CEEPTIC. Isso tornará possível que a referida escola esteja atenta e ciente das demandas relacionadas ao bullying e outras opressões nesse espaço. O site reunirá denúncias anônimas de forma estratégica, visando a melhorias e intervenções acolhedoras que combatam as múltiplas formas de opressão e preconceito no ambiente escolar. Portanto, o site informativo, ilustrativo e didático tem como finalidade tornar visíveis as formas de combate à violência e ao preconceito, incluindo o fomento ao processo de desconstrução de discursos, atitudes e ações que são consideradas normais ou naturalizadas, mas que na realidade são opressoras e discriminatórias.
+				</p>
+				<p>
+					Deste modo, o objetivo principal é promover o combate ao racismo, intolerância religiosa, injúria racial, assédio sexual e assédio moral no Colégio CEEPTIC.
 				</p>
 			</div>
 			<button class="btn-leia-mais">Leia Mais</button>
-			</p>
-			<br>
 		</article>
-		<aside><img src="./assets/img/autoFalante.jpeg" alt="ERROR" style="max-width: 310px;"></aside>
+		<aside>
+			<img src="./assets/img/autoFalante.jpeg" alt="ERROR" style="max-width: 310px;">
+		</aside>
 	</section>
+	
 
 
 	<footer id="foot">
