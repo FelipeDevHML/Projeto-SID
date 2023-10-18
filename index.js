@@ -14,11 +14,12 @@ botoesLeiaMais.forEach((botao, index) => {
 });
 
 
-// const pega = document.querySelector('#bodyPegadinha');
+const body = document.querySelector('body');
 
-// pegadinha = () => {
-//     pega.innerHTML = '<img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA" style="width: 100hv;">'
-// }
+body.innerHTML+='<dialog>'
+body.innerHTML+='<br><button class="btn-leia-mais" autofocus>FECHAR</button><br><br><br>'
+body.innerHTML+='<img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA">'
+body.innerHTML+='</dialog>'
 
 
 
