@@ -16,7 +16,7 @@ botoesLeiaMais.forEach((botao, index) => {
 
 const body = document.querySelector('body');
 
-body.innerHTML+='<dialog><br><button class="btn-leia-mais" autofocus>FECHAR</button><br><br><br><img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA"></dialog>'
+body.innerHTML+='<dialog><br><button class="btn-leia-mais" autofocus>FECHAR</button><br><br><br><img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA"></dialog><a href="https://www.freepik.com/free-photo/imeretian-khachapuri-cheese-lemon-side-view_8275435.htm#query=calzone&position=8&from_view=keyword&track=sph">Image by KamranAydinov</a> on Freepik'
 
 
 const dialog = document.querySelector("dialog");
