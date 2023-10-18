@@ -168,3 +168,54 @@ textarea {
 	font-weight: 700;
 	cursor: pointer;
 }
+
+ /* Estilos para o menu */
+ .header-bar {
+	background-color: #333; /* Cor de fundo do menu */
+	padding: 10px 0; /* Espaçamento interno no topo e na parte inferior */
+	display: flex; /* Use flexbox para alinhar elementos horizontalmente */
+	justify-content: center; /* Centralize o conteúdo horizontalmente */
+	align-items: center; /* Centralize o conteúdo verticalmente */
+}
+
+nav {
+	text-align: center; /* Centralize o texto do menu horizontalmente */
+}
+
+nav a {
+	color: #fff; /* Cor do texto do link */
+	text-decoration: none; /* Remova a sublinhado dos links */
+	margin: 0 20px; /* Espaçamento entre os links */
+	font-weight: bold; /* Texto em negrito */
+	transition: color 0.3s; /* Transição suave da cor do texto */
+}
+
+nav a:hover {
+	color: #3307f7; /* Cor do texto ao passar o mouse sobre os links */
+}
+
+/* Estilos para a logo */
+.logo {
+	display: flex; /* Use flexbox para alinhar elementos horizontalmente */
+	align-items: center; /* Alinha os elementos verticalmente ao centro */
+	background-color: #333; /* Cor de fundo da logo */
+}
+
+.logo img {
+	width: 125px; /* Largura da logo */
+	height: 62px; /* Altura da logo */
+	margin-right: 20px; /* Espaçamento à direita da logo */
+}
+
+/* Estilos para o botão "Leia Mais" */
+.btn-leia-mais {
+	background-color: #3307f7; /* Cor de fundo do botão */
+	color: #fff; /* Cor do texto do botão */
+	padding: 10px 20px; /* Espaçamento interno no botão */
+	border: none; /* Remova a borda do botão */
+	cursor: pointer; /* Altera o cursor para a mão ao passar sobre o botão */
+}
+
+.btn-leia-mais:hover {
+	background-color: #333; /* Cor de fundo ao passar o mouse sobre o botão */
+}
