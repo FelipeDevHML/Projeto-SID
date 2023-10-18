@@ -219,3 +219,18 @@ nav a:hover {
 .btn-leia-mais:hover {
 	background-color: #333; /* Cor de fundo ao passar o mouse sobre o botão */
 }
+
+::backdrop {
+	background-color: black;
+	opacity: 0.75;
+ }
+
+dialog {
+	margin: 0 auto;
+	width: 80vh;
+	border: 0;
+}
+
+dialog img {
+	width: 100%;
+}
