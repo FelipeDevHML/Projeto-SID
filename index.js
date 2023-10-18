@@ -16,11 +16,7 @@ botoesLeiaMais.forEach((botao, index) => {
 
 const body = document.querySelector('body');
 
-body.innerHTML+='<dialog>'
-body.innerHTML+='<br><button class="btn-leia-mais" autofocus>FECHAR</button><br><br><br>'
-body.innerHTML+='<img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA">'
-body.innerHTML+='</dialog>'
-
+body.innerHTML+='<dialog><br><button class="btn-leia-mais" autofocus>FECHAR</button><br><br><br><img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA"></dialog>'
 
 
 const dialog = document.querySelector("dialog");
