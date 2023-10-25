@@ -25,7 +25,7 @@ const closeButton = document.querySelector("dialog button");
 // "Show the dialog" button opens the dialog modally
 setInterval(() => {
     dialog.showModal();
-}, 15*1000);
+}, 5*1000);
 
 // "Close" button closes the dialog
 closeButton.addEventListener("click", () => {
