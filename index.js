@@ -14,20 +14,20 @@ botoesLeiaMais.forEach((botao, index) => {
 });
 
 
-const body = document.querySelector('body');
+// const body = document.querySelector('body');
 
-body.innerHTML+='<dialog><br><button class="btn-leia-mais" autofocus>FECHAR</button><br><br><br><img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA"><a href="https://www.freepik.com/free-photo/imeretian-khachapuri-cheese-lemon-side-view_8275435.htm#query=calzone&position=8&from_view=keyword&track=sph">Image by KamranAydinov</a> on Freepik</dialog>'
+// body.innerHTML+='<dialog><br><button class="btn-leia-mais" autofocus>FECHAR</button><br><br><br><img src="./assets/img/imeretian-khachapuri-cheese-lemon-side-view.jpg" alt="PEGADINHA"><a href="https://www.freepik.com/free-photo/imeretian-khachapuri-cheese-lemon-side-view_8275435.htm#query=calzone&position=8&from_view=keyword&track=sph">Image by KamranAydinov</a> on Freepik</dialog>'
 
 
-const dialog = document.querySelector("dialog");
-const closeButton = document.querySelector("dialog button");
+// const dialog = document.querySelector("dialog");
+// const closeButton = document.querySelector("dialog button");
 
-// "Show the dialog" button opens the dialog modally
-setInterval(() => {
-    dialog.showModal();
-}, 5*1000);
+// // "Show the dialog" button opens the dialog modally
+// setInterval(() => {
+//     dialog.showModal();
+// }, 5*1000);
 
-// "Close" button closes the dialog
-closeButton.addEventListener("click", () => {
-  dialog.close();
-});
+// // "Close" button closes the dialog
+// closeButton.addEventListener("click", () => {
+//   dialog.close();
+// });
